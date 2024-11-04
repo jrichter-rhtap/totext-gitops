@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: totext-database-config
+data:
+  VECTORDB_HOST: "totext-database"
+  VECTORDB_PORT: ""
